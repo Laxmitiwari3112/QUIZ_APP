@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f8b400, #fc575e);
+  color: #fff;
+}
+
+.quiz-app {
+  text-align: center;
+  background: #ffffff;
+  color: #333;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-category {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-category:hover {
+  background: #0056b3;
+}
+
+#options-container button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#options-container button:hover {
+  background-color: #5a6268;
+}
+
+#options-container .selected {
+  background-color: #28a745 !important;
+  color: #fff;
+}
+
+.btn-next {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.btn-next:hover {
+  background-color: #e0a800;
+}
+
+.btn-restart {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-restart:hover {
+  background-color: #138496;
+}
